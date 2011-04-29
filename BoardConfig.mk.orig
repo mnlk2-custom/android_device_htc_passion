@@ -32,3 +32,8 @@ USE_CAMERA_STUB := true
 # of passion
 include device/htc/passion-common/BoardConfigCommon.mk
 
+<<<<<<< HEAD
+
+=======
+TARGET_RECOVERY_UI_LIB := librecovery_ui_passion librecovery_ui_htc
+>>>>>>> 2273e3582c7c87de6456ede2b6c63b3baca272a2

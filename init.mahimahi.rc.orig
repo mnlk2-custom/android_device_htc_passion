@@ -55,9 +55,12 @@ on boot
     setprop ro.ril.fd.scron.timeout 4
     setprop ro.ril.fd.scroff.timeout 3
 
+<<<<<<< HEAD
+=======
     # GPRS class
     setprop ro.ril.gprsclass 10
 
+>>>>>>> 2273e3582c7c87de6456ede2b6c63b3baca272a2
 # compass/accelerometer daemon
 service akmd /system/bin/akmd
     user compass
@@ -73,7 +76,11 @@ service wpa_supplicant /system/bin/wpa_supplicant \
     disabled
     oneshot
 
+<<<<<<< HEAD
+service dhcpcd /system/bin/dhcpcd -ABKL
+=======
 service dhcpcd_eth0 /system/bin/dhcpcd -ABKL
+>>>>>>> 2273e3582c7c87de6456ede2b6c63b3baca272a2
     disabled
     oneshot
 
